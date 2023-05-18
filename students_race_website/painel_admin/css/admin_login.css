@@ -1,0 +1,12 @@
+﻿.modal{
+    display: block;
+}
+
+div#modal-body {
+    padding: 15px;
+    padding-bottom: 0px
+}
+
+div#modal-login {
+    height: 100%
+}

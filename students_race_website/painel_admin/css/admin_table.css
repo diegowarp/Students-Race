@@ -1,0 +1,86 @@
+div#body {
+    padding: 0px
+}
+
+div#modal-body {
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+p#null {
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.4em;
+    font-family: 'Quicksand', sans-serif
+}
+
+.table td, .table th, .table thead th {
+    border: 1px solid rgb(0,0,0);
+    border-bottom: 0px;
+    border-right: 0px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Quicksand', sans-serif
+}
+
+.table th, .table thead th   {
+    border-top: 0px;
+    font-weight: normal;
+    font-family: 'Fredoka One', cursive
+}
+
+.table-responsive {
+    border: 1px solid rgb(0,0,0);
+    border-radius: 5px
+}
+
+table.table.table-bordered {
+    margin-bottom: 0px;
+}
+
+div#div-action{
+    display: inline-flex
+}
+
+textarea.form-control {
+    font-size: 0.9em;
+    color: rgb(0,0,0)
+}
+
+div#btn-clear, button#btn-send, div#btn-thumb-down, button#btn-thumb-up, div#btn-delete, button#btn-edit {
+    background-color: transparent;
+    color: rgb(0,0,0);
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid rgb(0,0,0,0.75);
+    border-radius: 5px;
+    cursor: pointer
+}
+
+div#btn-clear {
+    margin-right: 5px
+}
+
+i#clear, i#send, i#thumb-down, i#thumb-up, i#delete, i#edit {
+    padding: 0px;
+    margin: 5px;
+    margin-top: 6px;
+    display: inline-table
+}
+
+@media screen and (max-width: 768px) {
+    div#modal-header {
+        position: sticky;
+        top: 0px
+    }
+    p#null{
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    p#null {
+        font-size: 1.2em;
+    }
+}

@@ -1,0 +1,46 @@
+i#icons_content {
+    color: rgba(255,255,255,1);
+    cursor: default
+}
+.inputfile {
+	width: 100%;
+    height: calc(18vw);
+    border-radius: 5px;
+	z-index: 1;
+    position: relative;
+    opacity: 0;
+    cursor: pointer
+}
+img#image {
+    position: absolute;
+    width: calc(100% - 30px);
+    height: calc(18vw);
+    top: 28px;
+    display: -webkit-box;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.5);
+}
+
+@media (max-width: 1199.98px) {
+    img#image, .inputfile {
+        height: calc(23vw)
+    }
+}
+
+@media (max-width: 991.98px) {
+    img#image, .inputfile {
+        height: calc(25vw)
+    }
+}
+@media (max-width: 767.98px) {
+    img#image, .inputfile { 
+        height: calc(43vw);
+        border: 1px solid rgba(0,0,0,1);
+    }
+}
+
+@media (max-width: 575.98px) {
+    img#image, .inputfile { 
+        height: calc(75vw)
+    }
+}
